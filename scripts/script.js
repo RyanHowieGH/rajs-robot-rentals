@@ -30,10 +30,10 @@ let duration = 0;
 function recalculate() {
     let costLabel = document.getElementById("calculated-cost");
     if (modelName === "XYZ") {
-        costLabel.innerHTML = (duration * 100)+".00";
+        costLabel.innerHTML = (duration * 100).toFixed(2);
     }
     else if (modelName === "CPRG") {
-        costLabel.innerHTML = (duration * 213)+".00";
+        costLabel.innerHTML = (duration * 213).toFixed(2);
     }
 }
 
