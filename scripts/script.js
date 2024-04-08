@@ -12,7 +12,7 @@ You are encouraged to use the provided naming convention for ease of review.
 // INSERT YOUR CODE HERE
 
 let modelName = "CPRG";
-let duration = null;
+let duration = 0;
 
 
 /****************** helper function ******************/
@@ -30,10 +30,10 @@ let duration = null;
 function recalculate() {
     let costLabel = document.getElementById("calculated-cost");
     if (modelName === "XYZ") {
-        costLabel.innerHTML = (duration * 100);
+        costLabel.innerHTML = (duration * 100)+".00";
     }
     else if (modelName === "CPRG") {
-        costLabel.innerHTML = (duration * 213);
+        costLabel.innerHTML = (duration * 213)+".00";
     }
 }
 
