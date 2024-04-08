@@ -11,7 +11,7 @@ You are encouraged to use the provided naming convention for ease of review.
 
 // INSERT YOUR CODE HERE
 
-let modelName = "CPRG";
+let modelName = "XYZ";
 let duration = 0;
 
 
@@ -36,8 +36,6 @@ function recalculate() {
         costLabel.innerHTML = (duration * 213).toFixed(2);
     }
 }
-
-
 
 
 /****************** model button logic ******************/
@@ -69,9 +67,6 @@ function changeModel() {
     }
     recalculate();
 }
-
-
-
 
 
 /****************** duration button logic ******************/
